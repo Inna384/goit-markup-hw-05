@@ -656,9 +656,12 @@ body{
       color: #4d5ae5;
     }
   .modal-check:checked + .modal-check-text .modal-checkbox{
-    border-radius: 2px;
+   /* border-radius: 2px;
     fill: #404bbf;
-    border: 1px solid #404bbf;
+    border: 1px solid #404bbf;*/
+    background-color: #404bbf; 
+    border: none;
+    fill: #F4F4FD;
   }
   .modal-btn{
     display: block;
